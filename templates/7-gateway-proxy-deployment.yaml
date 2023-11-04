@@ -101,6 +101,9 @@ spec:
         {{- end }}
 {{- end}}
     spec:
+{{- if $spec.kind.deployment.priorityClassName}}
+      priorityClassName: {{ $spec.kind.deployment.priorityClassName }}
+{{- end}}
 
 {{- if $spec.podTemplate.enablePodSecurityContext }}
       securityContext:

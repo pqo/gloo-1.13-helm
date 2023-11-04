@@ -5,4 +5,4 @@ icon: https://raw.githubusercontent.com/solo-io/gloo/master/docs/content/img/Glo
 name: gloo
 sources:
 - https://github.com/solo-io/gloo
-version: 1.13.30
+version: 1.13.30-1
