@@ -147,7 +147,7 @@ global:
   image:
     extended: false
     pullPolicy: IfNotPresent
-    registry: quay.io/solo-io
+    registry: gcr.io/gloo-edge
   istioIntegration:
     disableAutoinjection: false
     enableIstioSidecarOnGateway: false
